@@ -1,0 +1,3 @@
+[submodule "SwiftOpenCC"]
+	path = SwiftOpenCC
+	url = https://github.com/ddddxxx/SwiftyOpenCC.git

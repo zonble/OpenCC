@@ -1,0 +1,16 @@
+PODS:
+  - OpenCC (0.1.0)
+
+DEPENDENCIES:
+  - OpenCC (from `../`)
+
+EXTERNAL SOURCES:
+  OpenCC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenCC: 87c1c4571f57d75fd5048beaf456234965ce5bc1
+
+PODFILE CHECKSUM: 8c5ba93f053a0ad785897d36005cde7525e63b7a
+
+COCOAPODS: 1.8.0.beta.1
