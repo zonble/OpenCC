@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OpenCC_Example' do
+  pod 'OpenCC', :path => '../'
+
+  target 'OpenCC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
