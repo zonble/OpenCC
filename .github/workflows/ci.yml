@@ -7,5 +7,6 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v1
+      - uses: textbook/git-checkout-submodule-action@master
       - name: Pod Lib Lint
         run: pod lib lint
