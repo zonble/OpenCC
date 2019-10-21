@@ -25,11 +25,6 @@ to Simplified Chinese, and vise versa.
     "OTHER_LDFLAGS" => "-ObjC -lc++",
   }
   s.frameworks = "OpenCCBridge"
-
-  # s.resource_bundles = {
-  #   'OpenCC' => ['OpenCC/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.swift_versions = ["5.0", "5.1"]
+  s.resource = "SwiftOpenCC/OpenCCDictionary.bundle"
 end
