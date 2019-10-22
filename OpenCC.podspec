@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = "0.1.0"
   s.summary = "Open Chinese Convert"
   s.description = <<-DESC
-The Pod spec wraps OpeCC (Open Chinese Convert) that helps you to convert Traditianl Chinese 
+The Pod spec wraps OpeCC (Open Chinese Convert) that helps you to convert Traditianl Chinese
 to Simplified Chinese, and vise versa.
                        DESC
 
@@ -21,7 +21,7 @@ to Simplified Chinese, and vise versa.
   s.preserve_paths = ["SwiftOpenCC/Sources/OpenCCBridge/include"]
   s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include")} $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include",
-    "OTHER_SWIFT_FLAGS" => "-Xcc -fmodule-map-file=#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include/module.modulemap")}",
+    "OTHER_SWIFT_FLAGS" => "-Xcc -fmodule-map-file=#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include/module.modulemap")} -fmodule-map-file=$(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include",
     "OTHER_LDFLAGS" => "-ObjC -lc++",
   }
   s.frameworks = "OpenCCBridge"
