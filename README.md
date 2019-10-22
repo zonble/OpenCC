@@ -26,7 +26,7 @@ OpenCC is available through CocoaPods. To install it, simply add the following
 line to your Podfile:
 
 ```ruby
-pod 'OpenCC', , :git => 'https://github.com/zonble/OpenCC.git'
+pod 'OpenCC', :git => 'https://github.com/zonble/OpenCC.git', :submodules => true
 ```
 
 ## Author
