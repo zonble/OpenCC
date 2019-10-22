@@ -20,6 +20,8 @@ Example directory first.
 
 - Latest [Xcode](https://developer.apple.com/xcode/)
 - iOS 8 or above.
+- macOS 10.11 or above.
+- tvOS 9 or above.
 
 ## Installation
 
