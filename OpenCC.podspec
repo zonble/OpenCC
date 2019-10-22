@@ -14,10 +14,13 @@ to Simplified Chinese, and vise versa.
   s.social_media_url = "https://twitter.com/zonble"
 
   s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.11"
+  s.tvos.deployment_target = "9.0"
+  s.ios.vendored_frameworks = "lib/ios/OpenCCBridge.framework"
+  s.osx.vendored_frameworks = "lib/osx/OpenCCBridge.framework"
+  s.tvos.vendored_frameworks = "lib/tvos/OpenCCBridge.framework"
 
   s.source_files = "SwiftOpenCC/Sources/OpenCC"
-  s.prepare_command = "/bin/sh build.sh"
-  s.vendored_frameworks = "lib/OpenCCBridge.framework"
   s.preserve_paths = ["SwiftOpenCC/Sources/OpenCCBridge/include"]
   s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include")} $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include",
@@ -27,4 +30,7 @@ to Simplified Chinese, and vise versa.
   s.frameworks = "OpenCCBridge"
   s.swift_versions = ["5.0", "5.1"]
   s.resource = "SwiftOpenCC/OpenCCDictionary.bundle"
+
+  s.prepare_command = "/bin/sh build.sh"
+
 end
