@@ -22,6 +22,7 @@ to Simplified Chinese, and vise versa.
   s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include")} $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include",
     "OTHER_LDFLAGS" => "-ObjC -lc++",
+    "OTHER_CFLAGS" => "-fembed-bitcode",
   }
   s.frameworks = "OpenCCBridge"
   s.swift_versions = ["5.0", "5.1"]
