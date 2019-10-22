@@ -1,9 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/OpenCC
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../lib"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) /Users/zonble/KUBE/OpenCC/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include
+HEADER_SEARCH_PATHS = $(inherited) /Users/zonble/Work/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include
 OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "OpenCCBridge"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file=/Users/zonble/KUBE/OpenCC/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include/module.modulemap
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
