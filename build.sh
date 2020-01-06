@@ -16,7 +16,7 @@ lipo -create build/Release-iphoneos/OpenCCBridge.framework/OpenCCBridge build/Re
 rm -rf lib
 mkdir lib
 mkdir lib/ios
-cp -r build/Release-universal/OpenCCBridge.framework lib/ios/.
+cp -R build/Release-universal/OpenCCBridge.framework lib/ios/.
 
 ## macOS
 
@@ -27,7 +27,7 @@ xcodebuild -project SwiftOpenCC/SwiftyOpenCC.xcodeproj -target OpenCCBridge -sdk
 /usr/libexec/Plistbuddy -c "Set :CFBundleShortVersionString 1.0.0" build/Release/OpenCCBridge.framework/Resources/Info.plist
 
 mkdir lib/osx
-cp -r build/Release/OpenCCBridge.framework lib/osx/.
+cp -R build/Release/OpenCCBridge.framework lib/osx/.
 
 ## tvOS
 
@@ -44,4 +44,4 @@ cp build/Release-appletvos/OpenCCBridge.framework/Info.plist build/Release-unive
 lipo -create build/Release-appletvos/OpenCCBridge.framework/OpenCCBridge build/Release-appletvsimulator/OpenCCBridge.framework/OpenCCBridge -output build/Release-universal/OpenCCBridge.framework/OpenCCBridge
 
 mkdir lib/tvos
-cp -r build/Release-universal/OpenCCBridge.framework lib/tvos/.
+cp -R build/Release-universal/OpenCCBridge.framework lib/tvos/.
