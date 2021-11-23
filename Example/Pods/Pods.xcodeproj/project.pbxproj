@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A74D4CEB307A75E3E3EAD673531E1FB /* Pods-OpenCC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9507381129A1940EE3687949B47B3A /* Pods-OpenCC_Example-dummy.m */; };
-		52EE80CDD790C99965745F69488C9082 /* OpenCC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB33B4BB73CA1D94DE8EC6F9C3FCE235 /* OpenCC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E8206C5EC830AA963E5E4E7A5FC2D0A /* OpenCCDictionary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2C4C1B052050D93048FD793F978E /* OpenCCDictionary.bundle */; };
-		7B878950AE9218D16FC783C743D8CE3F /* OpenCC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2236EE0459902868882C527B20BFA /* OpenCC-dummy.m */; };
-		7C8DF0527D360B90B86A351CDCF11447 /* Pods-OpenCC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EFE3D9B853ACC8EAA6D06B9D59D577 /* Pods-OpenCC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D199A822C878F5C67343DDAC0FEE40A /* DictionaryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469B62CF7A18D4D7A40AC6A59D2F398E /* DictionaryLoader.swift */; };
-		91F1A9CAB605B42943322623C07CEDEB /* DictionaryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7258F6B4E489DB3309741C8CB30AFCF /* DictionaryName.swift */; };
-		958019D9C610E094116E33B83A1DD430 /* Pods-OpenCC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56E2EF32B989EEEF0C8A1404C607E6F /* Pods-OpenCC_Tests-dummy.m */; };
-		B147E15B567DC9A23CF150628519DCAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98153257D3BCA858991240046D116B45 /* Foundation.framework */; };
-		D2833666CAAE17F77C933CDB2299CBA3 /* ChineseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84DED0C93618AA805C021144B6F10F /* ChineseConverter.swift */; };
-		D46990492498EC1FC23079E9E19F0578 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98153257D3BCA858991240046D116B45 /* Foundation.framework */; };
-		E01A3048C9F5E7F4E5393591699383D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98153257D3BCA858991240046D116B45 /* Foundation.framework */; };
-		EB1EDC70766875D7ECBE04FCAC470582 /* Pods-OpenCC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480F13F1C70109D118642B920361BB86 /* Pods-OpenCC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F51098B9C6625C1CF9507B1C60831C09 /* OpenCCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06F77911C4127A19A963C2A4D44EA2B /* OpenCCBridge.framework */; };
+		14264B54E06025DA9AA2C531257169B4 /* Pods-OpenCC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 480F13F1C70109D118642B920361BB86 /* Pods-OpenCC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284DBFDC3F3875582192790B936992FE /* ChineseConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749829FD3F143FDB578845440418234 /* ChineseConverter.swift */; };
+		3406AE9A6AC49D835EE162B7FE1267D9 /* OpenCC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75557FBB590F59B43EB503074E815CA /* OpenCC-dummy.m */; };
+		3A96A054CED91A9CAEE82614C36EC8B1 /* DictionaryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF644353688ABEB57BAADC4D99489133 /* DictionaryName.swift */; };
+		65CDB2E6E964A59DC60D1F5D60F68E23 /* OpenCC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79031FDC273E32D97879CBE82D6EA0A6 /* OpenCC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C9D7E3E67EB5FC1951511E246AE49B3 /* DictionaryLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CF0B3B6898B270E51D91C94C24E82 /* DictionaryLoader.swift */; };
+		79CA668703D2A96770154C2D2AE3F509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5093C97BE84B2C2BEA2E588C871AD28B /* Foundation.framework */; };
+		7BCB0F575550F00661F90564127BDF10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5093C97BE84B2C2BEA2E588C871AD28B /* Foundation.framework */; };
+		A0EFA23EBF8BB1E43255CBA05779729B /* OpenCCDictionary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41FED979CAA9949FF68094666156CBC9 /* OpenCCDictionary.bundle */; };
+		C4E483FEE8D55A32F0D418D047EB41EE /* OpenCCBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2903A532AC0B4011DEE759A699FC6036 /* OpenCCBridge.framework */; };
+		CA48788227B9F118B846AD3D5326B2CE /* Pods-OpenCC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56E2EF32B989EEEF0C8A1404C607E6F /* Pods-OpenCC_Tests-dummy.m */; };
+		CBDD1D6E3DA2714EE4485C7342BB66E4 /* Pods-OpenCC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EFE3D9B853ACC8EAA6D06B9D59D577 /* Pods-OpenCC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE65FA3538BA814E0BF3AA2E2B37D9A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5093C97BE84B2C2BEA2E588C871AD28B /* Foundation.framework */; };
+		FCD88AC8BF381E6F2A8F402125C7B9EA /* Pods-OpenCC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9507381129A1940EE3687949B47B3A /* Pods-OpenCC_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DCD8D42847A50226A7656FD863A4786 /* PBXContainerItemProxy */ = {
+		825A711EA0A6634876417780863ACC5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5ADA5BDA675F62FE1706CC21CE31235D;
 			remoteInfo = OpenCC;
 		};
-		1FB040C4C0998208D79906D96FF81318 /* PBXContainerItemProxy */ = {
+		F7DD1876AEAA3E54C3EFE3AAEAAE04C5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,103 +42,105 @@
 
 /* Begin PBXFileReference section */
 		08BBE7C79B3A9680CDB3B4D98EDEFACD /* Pods-OpenCC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B3FB6D292D69456FE9118C74DE7FE37 /* OpenCC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenCC-prefix.pch"; sourceTree = "<group>"; };
-		141270825E0279425A39BEEC6CC5B0AB /* Pods_OpenCC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenCC_Tests.framework; path = "Pods-OpenCC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EA80141BD0FE56F0B8A6B4D62E0B9F /* OpenCC-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenCC-xcframeworks.sh"; sourceTree = "<group>"; };
+		141270825E0279425A39BEEC6CC5B0AB /* Pods-OpenCC_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpenCC_Tests"; path = Pods_OpenCC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C312EE6D0AC3DFD3752E1CC84BCF059 /* Pods-OpenCC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenCC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25F985AE8195A6875DE903C46FAC5C66 /* OpenCC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenCC.modulemap; sourceTree = "<group>"; };
+		2903A532AC0B4011DEE759A699FC6036 /* OpenCCBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCCBridge.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenCCBridge.framework; sourceTree = DEVELOPER_DIR; };
 		2B9507381129A1940EE3687949B47B3A /* Pods-OpenCC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenCC_Example-dummy.m"; sourceTree = "<group>"; };
+		2BF824931DC549186247C41374C1288F /* OpenCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCC.debug.xcconfig; sourceTree = "<group>"; };
 		2C15D447E5F68DF96290B87EE3B5D4AC /* Pods-OpenCC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		30628BA089115096C425BB7C8B88CAC2 /* OpenCC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenCC-Info.plist"; sourceTree = "<group>"; };
 		330957E8DA91DA132132CB9D7129C43C /* Pods-OpenCC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenCC_Tests.modulemap"; sourceTree = "<group>"; };
-		469B62CF7A18D4D7A40AC6A59D2F398E /* DictionaryLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryLoader.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryLoader.swift; sourceTree = "<group>"; };
+		41FED979CAA9949FF68094666156CBC9 /* OpenCCDictionary.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OpenCCDictionary.bundle; path = SwiftOpenCC/OpenCCDictionary.bundle; sourceTree = "<group>"; };
 		480F13F1C70109D118642B920361BB86 /* Pods-OpenCC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenCC_Example-umbrella.h"; sourceTree = "<group>"; };
-		4FBD2C4C1B052050D93048FD793F978E /* OpenCCDictionary.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OpenCCDictionary.bundle; path = SwiftOpenCC/OpenCCDictionary.bundle; sourceTree = "<group>"; };
+		5093C97BE84B2C2BEA2E588C871AD28B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		57EFE3D9B853ACC8EAA6D06B9D59D577 /* Pods-OpenCC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenCC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5F961D161460AD68D41AB4C2BA8798EA /* OpenCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenCC.framework; path = OpenCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F961D161460AD68D41AB4C2BA8798EA /* OpenCC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenCC; path = OpenCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA56DA18A4687DF6FAB006A597CEFC8 /* Pods-OpenCC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenCC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FD2236EE0459902868882C527B20BFA /* OpenCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenCC-dummy.m"; sourceTree = "<group>"; };
 		773416FEE4745858904A323369856561 /* Pods-OpenCC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenCC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79031FDC273E32D97879CBE82D6EA0A6 /* OpenCC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenCC-umbrella.h"; sourceTree = "<group>"; };
 		7CB07A3961E0244E71B99C980F6E6CF1 /* Pods-OpenCC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenCC_Example.modulemap"; sourceTree = "<group>"; };
 		7DFE3C320DF53339BAD51A599080AF58 /* Pods-OpenCC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenCC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8055C401F2788384B3F8E95485407726 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8815D73E1D5E763867B87E3E42397C5C /* OpenCC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCC.xcconfig; sourceTree = "<group>"; };
+		8B818EB50B12A7AA4477BEB417A13E8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		934C1269B32635F6DFCAF942D68DDD94 /* Pods-OpenCC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenCC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		98153257D3BCA858991240046D116B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A38A5426FD62534A268FA23A2AA74475 /* Pods_OpenCC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenCC_Example.framework; path = "Pods-OpenCC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38A5426FD62534A268FA23A2AA74475 /* Pods-OpenCC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpenCC_Example"; path = Pods_OpenCC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEABCDB42DBD1D3562A4B492326C8F8C /* Pods-OpenCC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenCC_Tests-Info.plist"; sourceTree = "<group>"; };
+		B4FEFB2AAADAD55C847DEA7C41561C54 /* OpenCC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenCC-prefix.pch"; sourceTree = "<group>"; };
 		B56E2EF32B989EEEF0C8A1404C607E6F /* Pods-OpenCC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenCC_Tests-dummy.m"; sourceTree = "<group>"; };
-		B7258F6B4E489DB3309741C8CB30AFCF /* DictionaryName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryName.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryName.swift; sourceTree = "<group>"; };
-		CDD6F39198A7052D0F313FD8564E87BC /* OpenCC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenCC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6825157F7A4ED1BE361ED4E79987861 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B79CF0B3B6898B270E51D91C94C24E82 /* DictionaryLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryLoader.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryLoader.swift; sourceTree = "<group>"; };
+		BBACD264FEEA1DCF5851860EFBDE2D08 /* OpenCC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenCC.modulemap; sourceTree = "<group>"; };
+		C75557FBB590F59B43EB503074E815CA /* OpenCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenCC-dummy.m"; sourceTree = "<group>"; };
 		D1D79D7E6FE0C82BAE6B29E11171E702 /* Pods-OpenCC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenCC_Example-Info.plist"; sourceTree = "<group>"; };
-		DB84DED0C93618AA805C021144B6F10F /* ChineseConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseConverter.swift; path = SwiftOpenCC/Sources/OpenCC/ChineseConverter.swift; sourceTree = "<group>"; };
+		DF644353688ABEB57BAADC4D99489133 /* DictionaryName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryName.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryName.swift; sourceTree = "<group>"; };
 		E1FE030F5EFFFD53545C4D9AE9F9E4B4 /* Pods-OpenCC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E4C8CDECF32426F6A1DC2E2EF4EA6249 /* OpenCC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenCC-Info.plist"; sourceTree = "<group>"; };
-		EDC23054FB002517D59324C9F660D538 /* OpenCCBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCCBridge.framework; path = lib/OpenCCBridge.framework; sourceTree = "<group>"; };
+		E749829FD3F143FDB578845440418234 /* ChineseConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseConverter.swift; path = SwiftOpenCC/Sources/OpenCC/ChineseConverter.swift; sourceTree = "<group>"; };
 		EDD43F55D7E630E8DCF6523C1E90C4F2 /* Pods-OpenCC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F06F77911C4127A19A963C2A4D44EA2B /* OpenCCBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCCBridge.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenCCBridge.framework; sourceTree = DEVELOPER_DIR; };
-		F9E05E37C5E1C5A4B560FB80BE2D90CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FB33B4BB73CA1D94DE8EC6F9C3FCE235 /* OpenCC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenCC-umbrella.h"; sourceTree = "<group>"; };
+		F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCC.release.xcconfig; sourceTree = "<group>"; };
+		F4E0E95D1F8DB82FC30BA683291CA841 /* OpenCCBridge.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenCCBridge.xcframework; path = lib/OpenCCBridge.xcframework; sourceTree = "<group>"; };
+		F9C098AD312A7432251E6D5C90290FCA /* OpenCC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenCC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74183F2270001EDD7FABEAA1A6B8F1AE /* Frameworks */ = {
+		1FF09470D7B4310B15D472A544C257CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D46990492498EC1FC23079E9E19F0578 /* Foundation.framework in Frameworks */,
-				F51098B9C6625C1CF9507B1C60831C09 /* OpenCCBridge.framework in Frameworks */,
+				7BCB0F575550F00661F90564127BDF10 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E06D6522C74C74329B6B13CA53C74054 /* Frameworks */ = {
+		218120FB781D37D54FDA2FAEB568170C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01A3048C9F5E7F4E5393591699383D6 /* Foundation.framework in Frameworks */,
+				CE65FA3538BA814E0BF3AA2E2B37D9A5 /* Foundation.framework in Frameworks */,
+				C4E483FEE8D55A32F0D418D047EB41EE /* OpenCCBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E51AB219F426B480C1CA8A6189CADC77 /* Frameworks */ = {
+		3FB6BADE211F775F10808ADE65FB27CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B147E15B567DC9A23CF150628519DCAB /* Foundation.framework in Frameworks */,
+				79CA668703D2A96770154C2D2AE3F509 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0536EB094F2F950B81BFE745F56578A7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5093C97BE84B2C2BEA2E588C871AD28B /* Foundation.framework */,
+				2903A532AC0B4011DEE759A699FC6036 /* OpenCCBridge.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD484F3C6B9E32D2F0982C363BD67651 /* iOS */,
+				0536EB094F2F950B81BFE745F56578A7 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18CEA8151720CD29C6E2BF63C0E4117E /* Products */ = {
+		1A4CE107B77A36D8E8A72B91E53B5B1B /* OpenCC */ = {
 			isa = PBXGroup;
 			children = (
-				5F961D161460AD68D41AB4C2BA8798EA /* OpenCC.framework */,
-				A38A5426FD62534A268FA23A2AA74475 /* Pods_OpenCC_Example.framework */,
-				141270825E0279425A39BEEC6CC5B0AB /* Pods_OpenCC_Tests.framework */,
+				E749829FD3F143FDB578845440418234 /* ChineseConverter.swift */,
+				B79CF0B3B6898B270E51D91C94C24E82 /* DictionaryLoader.swift */,
+				DF644353688ABEB57BAADC4D99489133 /* DictionaryName.swift */,
+				41FED979CAA9949FF68094666156CBC9 /* OpenCCDictionary.bundle */,
+				DA020BF7383F8527DFFB0BA7FF4BD042 /* Frameworks */,
+				4ED54841142B7094ADD0ABAF7E2D4B22 /* Pod */,
+				ECA0E208EC07E8C788D7C466EF62153F /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1B002DADA4EB3B3D6312A17A33BBA2CA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25F985AE8195A6875DE903C46FAC5C66 /* OpenCC.modulemap */,
-				8815D73E1D5E763867B87E3E42397C5C /* OpenCC.xcconfig */,
-				6FD2236EE0459902868882C527B20BFA /* OpenCC-dummy.m */,
-				E4C8CDECF32426F6A1DC2E2EF4EA6249 /* OpenCC-Info.plist */,
-				0B3FB6D292D69456FE9118C74DE7FE37 /* OpenCC-prefix.pch */,
-				FB33B4BB73CA1D94DE8EC6F9C3FCE235 /* OpenCC-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OpenCC";
+			name = OpenCC;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		31DFAF6E15AE26044196DDAD1DC53156 /* Targets Support Files */ = {
@@ -148,6 +150,16 @@
 				3A2F803C52981354A4AD5C0429D2E033 /* Pods-OpenCC_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32A0A6EBFF08F768D40B04B2F8C188D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F961D161460AD68D41AB4C2BA8798EA /* OpenCC */,
+				A38A5426FD62534A268FA23A2AA74475 /* Pods-OpenCC_Example */,
+				141270825E0279425A39BEEC6CC5B0AB /* Pods-OpenCC_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		3A2F803C52981354A4AD5C0429D2E033 /* Pods-OpenCC_Tests */ = {
@@ -166,27 +178,14 @@
 			path = "Target Support Files/Pods-OpenCC_Tests";
 			sourceTree = "<group>";
 		};
-		47A1137BC9F102D8F3E6B3131CD238CC /* OpenCC */ = {
+		4ED54841142B7094ADD0ABAF7E2D4B22 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DB84DED0C93618AA805C021144B6F10F /* ChineseConverter.swift */,
-				469B62CF7A18D4D7A40AC6A59D2F398E /* DictionaryLoader.swift */,
-				B7258F6B4E489DB3309741C8CB30AFCF /* DictionaryName.swift */,
-				83F7969BEA24E3F9526EB1E9345C3CE5 /* Frameworks */,
-				C7A3A7AB1D16601983C83614C6237797 /* Pod */,
-				F515E6E6D2847CC956B974D8DA7B9098 /* Resources */,
-				1B002DADA4EB3B3D6312A17A33BBA2CA /* Support Files */,
+				B6825157F7A4ED1BE361ED4E79987861 /* LICENSE */,
+				F9C098AD312A7432251E6D5C90290FCA /* OpenCC.podspec */,
+				8B818EB50B12A7AA4477BEB417A13E8E /* README.md */,
 			);
-			name = OpenCC;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		83F7969BEA24E3F9526EB1E9345C3CE5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EDC23054FB002517D59324C9F660D538 /* OpenCCBridge.framework */,
-			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8DD515125C4D5A84A283BA78712D32D0 /* Pods-OpenCC_Example */ = {
@@ -206,48 +205,45 @@
 			path = "Target Support Files/Pods-OpenCC_Example";
 			sourceTree = "<group>";
 		};
-		C7A3A7AB1D16601983C83614C6237797 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8055C401F2788384B3F8E95485407726 /* LICENSE */,
-				CDD6F39198A7052D0F313FD8564E87BC /* OpenCC.podspec */,
-				F9E05E37C5E1C5A4B560FB80BE2D90CA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD484F3C6B9E32D2F0982C363BD67651 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				98153257D3BCA858991240046D116B45 /* Foundation.framework */,
-				F06F77911C4127A19A963C2A4D44EA2B /* OpenCCBridge.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				FE3251B9EBEC6794EAD708458B3064ED /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				18CEA8151720CD29C6E2BF63C0E4117E /* Products */,
+				32A0A6EBFF08F768D40B04B2F8C188D9 /* Products */,
 				31DFAF6E15AE26044196DDAD1DC53156 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F515E6E6D2847CC956B974D8DA7B9098 /* Resources */ = {
+		DA020BF7383F8527DFFB0BA7FF4BD042 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4FBD2C4C1B052050D93048FD793F978E /* OpenCCDictionary.bundle */,
+				F4E0E95D1F8DB82FC30BA683291CA841 /* OpenCCBridge.xcframework */,
 			);
-			name = Resources;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECA0E208EC07E8C788D7C466EF62153F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBACD264FEEA1DCF5851860EFBDE2D08 /* OpenCC.modulemap */,
+				C75557FBB590F59B43EB503074E815CA /* OpenCC-dummy.m */,
+				30628BA089115096C425BB7C8B88CAC2 /* OpenCC-Info.plist */,
+				B4FEFB2AAADAD55C847DEA7C41561C54 /* OpenCC-prefix.pch */,
+				79031FDC273E32D97879CBE82D6EA0A6 /* OpenCC-umbrella.h */,
+				09EA80141BD0FE56F0B8A6B4D62E0B9F /* OpenCC-xcframeworks.sh */,
+				2BF824931DC549186247C41374C1288F /* OpenCC.debug.xcconfig */,
+				F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpenCC";
 			sourceTree = "<group>";
 		};
 		FE3251B9EBEC6794EAD708458B3064ED /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				47A1137BC9F102D8F3E6B3131CD238CC /* OpenCC */,
+				1A4CE107B77A36D8E8A72B91E53B5B1B /* OpenCC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -255,27 +251,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		81956DB455B48AB8BC1823A889BA8612 /* Headers */ = {
+		008D629E47A9FFE4ACB1A69CE6742AC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1EDC70766875D7ECBE04FCAC470582 /* Pods-OpenCC_Example-umbrella.h in Headers */,
+				14264B54E06025DA9AA2C531257169B4 /* Pods-OpenCC_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87C770386E6B0BC67758CBBCCAB93FDF /* Headers */ = {
+		188882583D255490B405337CD9D13B14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8DF0527D360B90B86A351CDCF11447 /* Pods-OpenCC_Tests-umbrella.h in Headers */,
+				65CDB2E6E964A59DC60D1F5D60F68E23 /* OpenCC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F617CB4E3EBFC5017A28B1C5B8AE7B02 /* Headers */ = {
+		335FCEABD861FDBC64B6EAD8E8135265 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EE80CDD790C99965745F69488C9082 /* OpenCC-umbrella.h in Headers */,
+				CBDD1D6E3DA2714EE4485C7342BB66E4 /* Pods-OpenCC_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +280,13 @@
 /* Begin PBXNativeTarget section */
 		5ADA5BDA675F62FE1706CC21CE31235D /* OpenCC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E633C6C7125DE24691570CB7A38E420D /* Build configuration list for PBXNativeTarget "OpenCC" */;
+			buildConfigurationList = 58F299D860DAFE9A2E350039FC84C5A8 /* Build configuration list for PBXNativeTarget "OpenCC" */;
 			buildPhases = (
-				F617CB4E3EBFC5017A28B1C5B8AE7B02 /* Headers */,
-				986175F05C67C0CC3B25C6C767E84263 /* Sources */,
-				74183F2270001EDD7FABEAA1A6B8F1AE /* Frameworks */,
-				9EED2EEFEF3516F1E372B6C26DFDF5A1 /* Resources */,
+				188882583D255490B405337CD9D13B14 /* Headers */,
+				4546186432F67F8EC7AF617450F7989D /* [CP] Copy XCFrameworks */,
+				A922B1D7D79B48345359A68334A3C4FA /* Sources */,
+				218120FB781D37D54FDA2FAEB568170C /* Frameworks */,
+				F5620C0B105ABEA48E7F64FD5B37040E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -297,45 +294,45 @@
 			);
 			name = OpenCC;
 			productName = OpenCC;
-			productReference = 5F961D161460AD68D41AB4C2BA8798EA /* OpenCC.framework */;
+			productReference = 5F961D161460AD68D41AB4C2BA8798EA /* OpenCC */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3AE268E8BFB57BF91F6AA940CE7A16D /* Pods-OpenCC_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9AC7BFC049B39AC5D4F4204BFE77DF3E /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Tests" */;
+			buildConfigurationList = E694B8AB626D8BD67368F8CA49C9F82C /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Tests" */;
 			buildPhases = (
-				87C770386E6B0BC67758CBBCCAB93FDF /* Headers */,
-				DA9878D3083C56EDB952960FFF005345 /* Sources */,
-				E06D6522C74C74329B6B13CA53C74054 /* Frameworks */,
-				AA044C993A3969BD4BEFF0C5DE8807F6 /* Resources */,
+				335FCEABD861FDBC64B6EAD8E8135265 /* Headers */,
+				C20689141AE4C0AD6CBC1EC45A992D6F /* Sources */,
+				1FF09470D7B4310B15D472A544C257CF /* Frameworks */,
+				CFA6E736088BF01CC4DF56A009A40B1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				93C5AEEEA1E8B2CE28CAA8EF3010CFCB /* PBXTargetDependency */,
+				92BDE66B7922AEC53EF101800D2F464D /* PBXTargetDependency */,
 			);
 			name = "Pods-OpenCC_Tests";
-			productName = "Pods-OpenCC_Tests";
-			productReference = 141270825E0279425A39BEEC6CC5B0AB /* Pods_OpenCC_Tests.framework */;
+			productName = Pods_OpenCC_Tests;
+			productReference = 141270825E0279425A39BEEC6CC5B0AB /* Pods-OpenCC_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1BBB7CD61321A9DDF9CE54E6120C64D /* Pods-OpenCC_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1817487C4E66ED591DC05387F8727C47 /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Example" */;
+			buildConfigurationList = 5402E8A43FE026EB2B149620CE96BC38 /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Example" */;
 			buildPhases = (
-				81956DB455B48AB8BC1823A889BA8612 /* Headers */,
-				CBED00E3D086DAF2EADB7CFA808CB0FF /* Sources */,
-				E51AB219F426B480C1CA8A6189CADC77 /* Frameworks */,
-				8721FFEE2F05343C4B7E97D16F54C200 /* Resources */,
+				008D629E47A9FFE4ACB1A69CE6742AC2 /* Headers */,
+				1AB52A4D45A3DBEBE46EA7CBBD1EFD38 /* Sources */,
+				3FB6BADE211F775F10808ADE65FB27CD /* Frameworks */,
+				C16152E4D159E0E08EC55F0BA887874F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F31FED859C13DF21C78547201A239D91 /* PBXTargetDependency */,
+				B2F31B8AD8986176261EBE07AAF62A52 /* PBXTargetDependency */,
 			);
 			name = "Pods-OpenCC_Example";
-			productName = "Pods-OpenCC_Example";
-			productReference = A38A5426FD62534A268FA23A2AA74475 /* Pods_OpenCC_Example.framework */;
+			productName = Pods_OpenCC_Example;
+			productReference = A38A5426FD62534A268FA23A2AA74475 /* Pods-OpenCC_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -344,18 +341,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 18CEA8151720CD29C6E2BF63C0E4117E /* Products */;
+			productRefGroup = 32A0A6EBFF08F768D40B04B2F8C188D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -367,114 +365,101 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8721FFEE2F05343C4B7E97D16F54C200 /* Resources */ = {
+		C16152E4D159E0E08EC55F0BA887874F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EED2EEFEF3516F1E372B6C26DFDF5A1 /* Resources */ = {
+		CFA6E736088BF01CC4DF56A009A40B1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E8206C5EC830AA963E5E4E7A5FC2D0A /* OpenCCDictionary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA044C993A3969BD4BEFF0C5DE8807F6 /* Resources */ = {
+		F5620C0B105ABEA48E7F64FD5B37040E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EFA23EBF8BB1E43255CBA05779729B /* OpenCCDictionary.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4546186432F67F8EC7AF617450F7989D /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenCC/OpenCC-xcframeworks.sh",
+				"${PODS_ROOT}/../../lib/OpenCCBridge.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenCC/OpenCCBridge.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpenCC/OpenCC-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		986175F05C67C0CC3B25C6C767E84263 /* Sources */ = {
+		1AB52A4D45A3DBEBE46EA7CBBD1EFD38 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2833666CAAE17F77C933CDB2299CBA3 /* ChineseConverter.swift in Sources */,
-				8D199A822C878F5C67343DDAC0FEE40A /* DictionaryLoader.swift in Sources */,
-				91F1A9CAB605B42943322623C07CEDEB /* DictionaryName.swift in Sources */,
-				7B878950AE9218D16FC783C743D8CE3F /* OpenCC-dummy.m in Sources */,
+				FCD88AC8BF381E6F2A8F402125C7B9EA /* Pods-OpenCC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBED00E3D086DAF2EADB7CFA808CB0FF /* Sources */ = {
+		A922B1D7D79B48345359A68334A3C4FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A74D4CEB307A75E3E3EAD673531E1FB /* Pods-OpenCC_Example-dummy.m in Sources */,
+				284DBFDC3F3875582192790B936992FE /* ChineseConverter.swift in Sources */,
+				6C9D7E3E67EB5FC1951511E246AE49B3 /* DictionaryLoader.swift in Sources */,
+				3A96A054CED91A9CAEE82614C36EC8B1 /* DictionaryName.swift in Sources */,
+				3406AE9A6AC49D835EE162B7FE1267D9 /* OpenCC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA9878D3083C56EDB952960FFF005345 /* Sources */ = {
+		C20689141AE4C0AD6CBC1EC45A992D6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958019D9C610E094116E33B83A1DD430 /* Pods-OpenCC_Tests-dummy.m in Sources */,
+				CA48788227B9F118B846AD3D5326B2CE /* Pods-OpenCC_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93C5AEEEA1E8B2CE28CAA8EF3010CFCB /* PBXTargetDependency */ = {
+		92BDE66B7922AEC53EF101800D2F464D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OpenCC_Example";
 			target = F1BBB7CD61321A9DDF9CE54E6120C64D /* Pods-OpenCC_Example */;
-			targetProxy = 1FB040C4C0998208D79906D96FF81318 /* PBXContainerItemProxy */;
+			targetProxy = F7DD1876AEAA3E54C3EFE3AAEAAE04C5 /* PBXContainerItemProxy */;
 		};
-		F31FED859C13DF21C78547201A239D91 /* PBXTargetDependency */ = {
+		B2F31B8AD8986176261EBE07AAF62A52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OpenCC;
 			target = 5ADA5BDA675F62FE1706CC21CE31235D /* OpenCC */;
-			targetProxy = 0DCD8D42847A50226A7656FD863A4786 /* PBXContainerItemProxy */;
+			targetProxy = 825A711EA0A6634876417780863ACC5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3A9366B8944FB4A42607BF4EDD9C310C /* Debug */ = {
+		3FE3050A608510F6CF90022012B6CAF5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C15D447E5F68DF96290B87EE3B5D4AC /* Pods-OpenCC_Example.debug.xcconfig */;
+			baseConfigurationReference = F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D67F1E30A904AB81E03751158FF7C87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8815D73E1D5E763867B87E3E42397C5C /* OpenCC.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -496,82 +481,17 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		825C48C783833A4417EB663A7724D09E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDD43F55D7E630E8DCF6523C1E90C4F2 /* Pods-OpenCC_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		970D0CA7887FF18F3CB8F88445064363 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08BBE7C79B3A9680CDB3B4D98EDEFACD /* Pods-OpenCC_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -594,6 +514,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -628,10 +549,76 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		5D02CA27E4DEE9AE640C332CB304601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C15D447E5F68DF96290B87EE3B5D4AC /* Pods-OpenCC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7502E50C4A48882CEFEA4541646D9A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FE030F5EFFFD53545C4D9AE9F9E4B4 /* Pods-OpenCC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -654,6 +641,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -692,11 +680,10 @@
 			};
 			name = Debug;
 		};
-		ED362921D7DD8E48382E20098F816501 /* Release */ = {
+		980F029A1D816621DA5E579B573D54DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8815D73E1D5E763867B87E3E42397C5C /* OpenCC.xcconfig */;
+			baseConfigurationReference = 2BF824931DC549186247C41374C1288F /* OpenCC.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -718,18 +705,16 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		F5B6E0D59922C0529D89D31B27DCDF31 /* Release */ = {
+		BA43E0F0C6E32043A63EF002D15BE823 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1FE030F5EFFFD53545C4D9AE9F9E4B4 /* Pods-OpenCC_Tests.release.xcconfig */;
+			baseConfigurationReference = 08BBE7C79B3A9680CDB3B4D98EDEFACD /* Pods-OpenCC_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -752,6 +737,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3AB6A279FCFB49FB660BCC01B461E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD43F55D7E630E8DCF6523C1E90C4F2 /* Pods-OpenCC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -761,38 +778,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1817487C4E66ED591DC05387F8727C47 /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A9366B8944FB4A42607BF4EDD9C310C /* Debug */,
-				825C48C783833A4417EB663A7724D09E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9AC7BFC049B39AC5D4F4204BFE77DF3E /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Tests" */ = {
+		5402E8A43FE026EB2B149620CE96BC38 /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				970D0CA7887FF18F3CB8F88445064363 /* Debug */,
-				F5B6E0D59922C0529D89D31B27DCDF31 /* Release */,
+				5D02CA27E4DEE9AE640C332CB304601B /* Debug */,
+				C3AB6A279FCFB49FB660BCC01B461E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E633C6C7125DE24691570CB7A38E420D /* Build configuration list for PBXNativeTarget "OpenCC" */ = {
+		58F299D860DAFE9A2E350039FC84C5A8 /* Build configuration list for PBXNativeTarget "OpenCC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D67F1E30A904AB81E03751158FF7C87 /* Debug */,
-				ED362921D7DD8E48382E20098F816501 /* Release */,
+				980F029A1D816621DA5E579B573D54DC /* Debug */,
+				3FE3050A608510F6CF90022012B6CAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E694B8AB626D8BD67368F8CA49C9F82C /* Build configuration list for PBXNativeTarget "Pods-OpenCC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA43E0F0C6E32043A63EF002D15BE823 /* Debug */,
+				7502E50C4A48882CEFEA4541646D9A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

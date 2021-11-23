@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "OpenCC"
-  s.version = "0.1.5"
+  s.version = "0.1.6"
   s.summary = "Open Chinese Convert"
   s.description = <<-DESC
 The Pod spec wraps OpeCC (Open Chinese Convert) that helps you to convert Traditianl Chinese
@@ -16,9 +16,7 @@ to Simplified Chinese, and vise versa.
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
-  s.ios.vendored_frameworks = "lib/ios/OpenCCBridge.framework"
-  s.osx.vendored_frameworks = "lib/osx/OpenCCBridge.framework"
-  s.tvos.vendored_frameworks = "lib/tvos/OpenCCBridge.framework"
+  s.vendored_frameworks = "lib/OpenCCBridge.xcframework"
 
   s.source_files = "SwiftOpenCC/Sources/OpenCC"
   s.preserve_paths = ["SwiftOpenCC/Sources/OpenCCBridge/include"]
@@ -28,9 +26,8 @@ to Simplified Chinese, and vise versa.
     "OTHER_CFLAGS" => "-fembed-bitcode",
   }
   s.frameworks = "OpenCCBridge"
-  s.swift_versions = ["5.0", "5.1"]
+  s.swift_versions = ["5.0", "5.1", "5.5"]
   s.resource = "SwiftOpenCC/OpenCCDictionary.bundle"
-
   s.prepare_command = "/bin/sh build.sh"
 
 end

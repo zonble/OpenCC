@@ -291,13 +291,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example-frameworks.sh",
-				"${PODS_ROOT}/../../lib/OpenCCBridge.framework",
 				"${BUILT_PRODUCTS_DIR}/OpenCC/OpenCC.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenCC/OpenCCBridge.framework/OpenCCBridge",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenCCBridge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenCC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenCCBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
