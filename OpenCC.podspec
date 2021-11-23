@@ -13,7 +13,7 @@ to Simplified Chinese, and vise versa.
   s.source = { :git => "https://github.com/zonble/OpenCC.git", :tag => s.version.to_s, :submodules => true }
   s.social_media_url = "https://twitter.com/zonble"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
   s.vendored_frameworks = "lib/OpenCCBridge.xcframework"
