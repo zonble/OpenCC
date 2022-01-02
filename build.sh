@@ -39,8 +39,8 @@ cp build/Release-appletvos/OpenCCBridge.framework/Info.plist build/Release-apple
 
 xcodebuild -create-xcframework \
      -framework build/Release/OpenCCBridge.framework \
-     -framework build/Release-iphoneos/OpenCCBridge.framework \
-     -framework build/Release-iphonesimulator/OpenCCBridge.framework \
+     -framework build/UninstalledProducts/iphoneos/OpenCCBridge.framework \
+     -framework build/UninstalledProducts/iphonesimulator/OpenCCBridge.framework \
      -framework build/Release-appletvos/OpenCCBridge.framework \
      -framework build/Release-appletvsimulator/OpenCCBridge.framework \
      -output lib/OpenCCBridge.xcframework
