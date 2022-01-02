@@ -10,4 +10,4 @@ jobs:
         with:
           submodules: true
       - name: Pod Lib Lint
-        run: pod lib lint
+        run: pod lib lint --verbose
