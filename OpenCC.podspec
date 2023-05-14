@@ -16,10 +16,10 @@ to Simplified Chinese, and vise versa.
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
-  s.vendored_frameworks = "lib/OpenCCBridge.xcframework"
+  s.vendored_frameworks = "OpenCCBridge.xcframework"
 
   s.source_files = "SwiftOpenCC/Sources/OpenCC"
-  s.preserve_paths = ["SwiftOpenCC/Sources/OpenCCBridge/include"]
+  s.preserve_paths = ["SwiftOpenCC/Sources/OpenCCBridge/include", "OpenCCBridge.xcframework"]
   s.xcconfig = {
     "HEADER_SEARCH_PATHS" => "#{File.join(File.dirname(__FILE__), "SwiftOpenCC/Sources/OpenCCBridge/include")} $(PODS_ROOT)/OpenCC/SwiftOpenCC/Sources/OpenCCBridge/include",
     "OTHER_LDFLAGS" => "-ObjC -lc++",

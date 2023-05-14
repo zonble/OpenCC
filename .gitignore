@@ -39,3 +39,4 @@ Carthage/Build
 build
 lib
 Eample/Pods
+OpenCCBridge.xcframework

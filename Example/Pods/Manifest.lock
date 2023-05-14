@@ -1,5 +1,5 @@
 PODS:
-  - OpenCC (0.1.5)
+  - OpenCC (0.2.1)
 
 DEPENDENCIES:
   - OpenCC (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OpenCC: 8497d83e3e65c064bc866a679415da491bd2fb83
+  OpenCC: a4dfa9d7caea37d726dca5a82ac8bde1c28f33bc
 
 PODFILE CHECKSUM: 8c5ba93f053a0ad785897d36005cde7525e63b7a
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.12.1

@@ -31,7 +31,7 @@
 		0F6EDC5873D27C54E3EDED27 /* Pods-OpenCC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCC_Example.debug.xcconfig"; path = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D6556926C1889795D858502 /* Pods_OpenCC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		309ADFE09352A6F0B76D264E /* Pods-OpenCC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCC_Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		49083F193165663536BDAC83 /* OpenCC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenCC.podspec; path = ../OpenCC.podspec; sourceTree = "<group>"; };
+		49083F193165663536BDAC83 /* OpenCC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OpenCC.podspec; path = ../OpenCC.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OpenCC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B6767C759E59F61CF1631ED /* Pods-OpenCC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenCC_Tests/Pods-OpenCC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B94F1F63234BC9FEE5824E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		74964F943FDEDBF2B6F98BD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6B94F1F63234BC9FEE5824E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74964F943FDEDBF2B6F98BD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A4E59E4610EC5C3AE10220B1 /* Pods-OpenCC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCC_Example.release.xcconfig"; path = "Target Support Files/Pods-OpenCC_Example/Pods-OpenCC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C280D875E2320ED9F1F8E47F /* Pods_OpenCC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46541F62A112D22006F48F5 /* OpenCC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenCC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		0D1897DEA21815FFF740739E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D46541F62A112D22006F48F5 /* OpenCC.framework */,
 				C280D875E2320ED9F1F8E47F /* Pods_OpenCC_Example.framework */,
 				2D6556926C1889795D858502 /* Pods_OpenCC_Tests.framework */,
 			);
@@ -156,7 +158,6 @@
 				6B6767C759E59F61CF1631ED /* Pods-OpenCC_Tests.debug.xcconfig */,
 				309ADFE09352A6F0B76D264E /* Pods-OpenCC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

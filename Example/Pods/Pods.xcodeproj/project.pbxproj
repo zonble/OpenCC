@@ -71,6 +71,7 @@
 		B6825157F7A4ED1BE361ED4E79987861 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B79CF0B3B6898B270E51D91C94C24E82 /* DictionaryLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryLoader.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryLoader.swift; sourceTree = "<group>"; };
 		BBACD264FEEA1DCF5851860EFBDE2D08 /* OpenCC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenCC.modulemap; sourceTree = "<group>"; };
+		BE1B158E4BD3416BA2FB597AB78C0C1C /* OpenCCBridge.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OpenCCBridge.xcframework; sourceTree = "<group>"; };
 		C75557FBB590F59B43EB503074E815CA /* OpenCC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenCC-dummy.m"; sourceTree = "<group>"; };
 		D1D79D7E6FE0C82BAE6B29E11171E702 /* Pods-OpenCC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenCC_Example-Info.plist"; sourceTree = "<group>"; };
 		DF644353688ABEB57BAADC4D99489133 /* DictionaryName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryName.swift; path = SwiftOpenCC/Sources/OpenCC/DictionaryName.swift; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		E749829FD3F143FDB578845440418234 /* ChineseConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChineseConverter.swift; path = SwiftOpenCC/Sources/OpenCC/ChineseConverter.swift; sourceTree = "<group>"; };
 		EDD43F55D7E630E8DCF6523C1E90C4F2 /* Pods-OpenCC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenCC.release.xcconfig; sourceTree = "<group>"; };
-		F4E0E95D1F8DB82FC30BA683291CA841 /* OpenCCBridge.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenCCBridge.xcframework; path = lib/OpenCCBridge.xcframework; sourceTree = "<group>"; };
 		F9C098AD312A7432251E6D5C90290FCA /* OpenCC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenCC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -135,7 +135,7 @@
 				B79CF0B3B6898B270E51D91C94C24E82 /* DictionaryLoader.swift */,
 				DF644353688ABEB57BAADC4D99489133 /* DictionaryName.swift */,
 				41FED979CAA9949FF68094666156CBC9 /* OpenCCDictionary.bundle */,
-				DA020BF7383F8527DFFB0BA7FF4BD042 /* Frameworks */,
+				80265F5F9B3BFE798BEE2C3AD67AD4E5 /* Frameworks */,
 				4ED54841142B7094ADD0ABAF7E2D4B22 /* Pod */,
 				ECA0E208EC07E8C788D7C466EF62153F /* Support Files */,
 			);
@@ -188,6 +188,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		80265F5F9B3BFE798BEE2C3AD67AD4E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1B158E4BD3416BA2FB597AB78C0C1C /* OpenCCBridge.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DD515125C4D5A84A283BA78712D32D0 /* Pods-OpenCC_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,14 +222,6 @@
 				32A0A6EBFF08F768D40B04B2F8C188D9 /* Products */,
 				31DFAF6E15AE26044196DDAD1DC53156 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DA020BF7383F8527DFFB0BA7FF4BD042 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F4E0E95D1F8DB82FC30BA683291CA841 /* OpenCCBridge.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ECA0E208EC07E8C788D7C466EF62153F /* Support Files */ = {
@@ -283,7 +283,7 @@
 			buildConfigurationList = 58F299D860DAFE9A2E350039FC84C5A8 /* Build configuration list for PBXNativeTarget "OpenCC" */;
 			buildPhases = (
 				188882583D255490B405337CD9D13B14 /* Headers */,
-				4546186432F67F8EC7AF617450F7989D /* [CP] Copy XCFrameworks */,
+				C7667F423D1833AAE4C6D386A7D8A68A /* [CP] Copy XCFrameworks */,
 				A922B1D7D79B48345359A68334A3C4FA /* Sources */,
 				218120FB781D37D54FDA2FAEB568170C /* Frameworks */,
 				F5620C0B105ABEA48E7F64FD5B37040E /* Resources */,
@@ -341,8 +341,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,14 +390,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4546186432F67F8EC7AF617450F7989D /* [CP] Copy XCFrameworks */ = {
+		C7667F423D1833AAE4C6D386A7D8A68A /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/OpenCC/OpenCC-xcframeworks.sh",
-				"${PODS_ROOT}/../../lib/OpenCCBridge.xcframework",
+				"${PODS_ROOT}/../../OpenCCBridge.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
@@ -456,37 +456,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3FE3050A608510F6CF90022012B6CAF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenCC/OpenCC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenCC/OpenCC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenCC/OpenCC.modulemap";
-				PRODUCT_MODULE_NAME = OpenCC;
-				PRODUCT_NAME = OpenCC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,6 +544,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DAC281F1DCD764FBEFD36C2DF8E4B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF824931DC549186247C41374C1288F /* OpenCC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCC/OpenCC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCC/OpenCC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenCC/OpenCC.modulemap";
+				PRODUCT_MODULE_NAME = OpenCC;
+				PRODUCT_NAME = OpenCC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -680,36 +679,6 @@
 			};
 			name = Debug;
 		};
-		980F029A1D816621DA5E579B573D54DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BF824931DC549186247C41374C1288F /* OpenCC.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OpenCC/OpenCC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OpenCC/OpenCC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OpenCC/OpenCC.modulemap";
-				PRODUCT_MODULE_NAME = OpenCC;
-				PRODUCT_NAME = OpenCC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BA43E0F0C6E32043A63EF002D15BE823 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08BBE7C79B3A9680CDB3B4D98EDEFACD /* Pods-OpenCC_Tests.debug.xcconfig */;
@@ -775,6 +744,37 @@
 			};
 			name = Release;
 		};
+		C53029CE64E59F27648753646A556C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49B04122B07A50BC4D53C0C4146EAF8 /* OpenCC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenCC/OpenCC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenCC/OpenCC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenCC/OpenCC.modulemap";
+				PRODUCT_MODULE_NAME = OpenCC;
+				PRODUCT_NAME = OpenCC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -799,8 +799,8 @@
 		58F299D860DAFE9A2E350039FC84C5A8 /* Build configuration list for PBXNativeTarget "OpenCC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				980F029A1D816621DA5E579B573D54DC /* Debug */,
-				3FE3050A608510F6CF90022012B6CAF5 /* Release */,
+				5DAC281F1DCD764FBEFD36C2DF8E4B4C /* Debug */,
+				C53029CE64E59F27648753646A556C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
