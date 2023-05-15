@@ -40,9 +40,9 @@ converter.convert(str)
 ## Requirements
 
 - Latest [Xcode](https://developer.apple.com/xcode/)
-- iOS 9 or above.
-- macOS 10.10 or above.
-- tvOS 9 or above.
+- iOS 11 or above.
+- macOS 10.13 or above.
+- tvOS 11 or above.
 
 ## Installation
 
